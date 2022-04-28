@@ -1,8 +1,7 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
-import 'package:flutter/painting.dart';
-import 'package:postest4_2009106072_gilang/utils/constants.dart';
+import '../utils/constants.dart';
 import 'package:simple_gradient_text/simple_gradient_text.dart';
 
 class CuacaPage extends StatelessWidget {
@@ -24,7 +23,7 @@ class CuacaPage extends StatelessWidget {
               "27 April, 2022",
               style: kWeatherSubtitleTextStyle,
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Image.asset(
@@ -33,7 +32,7 @@ class CuacaPage extends StatelessWidget {
                   ? Colors.black
                   : null,
             ),
-            SizedBox(
+            const SizedBox(
               height: 40,
             ),
             Row(
@@ -102,7 +101,7 @@ class CuacaPage extends StatelessWidget {
                 ),
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Container(
@@ -202,7 +201,7 @@ class CuacaPage extends StatelessWidget {
                 ],
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             Container(
@@ -243,7 +242,7 @@ class CuacaPage extends StatelessWidget {
                       Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: const [
-                          const Text(
+                          Text(
                             "18:00",
                             style: kWeatherAttrTextStyle2,
                           ),
