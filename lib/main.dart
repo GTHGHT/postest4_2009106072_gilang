@@ -7,7 +7,9 @@ import 'pages/landing_page.dart';
 void main() {
   runApp(
     ChangeNotifierProvider<ThemeNotifier>(
-        create: (_) => ThemeNotifier(), child: const MyApp()),
+      create: (_) => ThemeNotifier(),
+      child: const MyApp(),
+    ),
   );
 }
 

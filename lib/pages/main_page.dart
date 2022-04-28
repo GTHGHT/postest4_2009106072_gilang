@@ -10,7 +10,7 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
-  int _navigationIndex = 2;
+  int _navigationIndex = 0;
   static final List<Widget> _pages = [
     CuacaPage(),
     const Center(
